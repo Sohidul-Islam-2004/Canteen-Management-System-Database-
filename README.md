@@ -2,11 +2,25 @@
 
 A complete Canteen Management System with Java JDBC and MySQL. Supports Admin, Staff, and Customer roles with order management, inventory tracking, and sales reports.
 
-## Features
+## ✨ Features
 
-- **Admin**: Full control over menu, inventory, staff, and reports
-- **Staff**: Process orders, view inventory and recipes
-- **Customer**: Browse menu, place orders, write reviews, view order history
+| Role | Access Level | Features |
+|------|-------------|----------|
+| **Admin** | Full Control | Menu, Inventory, Staff, Reports, Analytics |
+| **Staff** | Operational | Orders, Inventory view, Recipes, Stock alerts |
+| **Customer** | Basic | Menu browsing, Order placement, Reviews, History |
+
+### 🎯 Core Functionalities
+
+- ✅ **User Management** - Registration, Login with security check, Profile management
+- ✅ **Menu Management** - Browse by categories, View ratings, Check availability
+- ✅ **Order Processing** - Place orders, Track status, Payment methods (Cash/Card/Canteen Card)
+- ✅ **Inventory Control** - Real-time stock tracking, Low stock alerts (<50 units)
+- ✅ **Recipe System** - Ingredient mapping, Automatic stock deduction
+- ✅ **Review & Rating** - Rate items (1-5⭐), Write comments, View average ratings
+- ✅ **Sales Analytics** - Daily/Weekly/Monthly reports, Top selling items, Revenue tracking
+- ✅ **Staff Management** - Manage salaries, Working hours, Performan
+
 
 ## Tech Stack
 
@@ -34,10 +48,4 @@ Download and install MySQL 8.0+ from https://dev.mysql.com/downloads/
 
 You should now see `canteen_management_system` database in the Schemas list.
 
-### Step 3: Verify Database Import
 
-In MySQL Workbench, run this query:
-
-```sql
-USE canteen_management_system;
-SELECT COUNT(*) FROM users;
