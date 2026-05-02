@@ -5,8 +5,8 @@ import java.time.LocalDate;
 
 class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/canteen_management_system";
-    private static final String USER = "root";
-    private static final String PASSWORD = "sohidul";
+    private static final String USER = "Add your User Name ";
+    private static final String PASSWORD = "Add your password of sql server";
     private static Connection connection = null;
 
     public static Connection getConnection() {
